@@ -1,0 +1,6 @@
+<h2>My Portfolio</h2>
+<% if logged_in? %>
+    <%= render 'toppage/loggedIn' %>
+<% else %>
+    <%= render 'toppage/notLoggedIn' %>
+<% end %>
