@@ -1,9 +1,4 @@
-<header>
-    <div class="header">
-        <span>My Portforio</span>
-        <a href="/login">ログイン</a>
-    </div>
-</header>
+<%= render 'sessions/header' %>
 <div class="login">
     <h3>ログイン</h3>
     <%= form_for(:session, url: login_path) do |f| %>
